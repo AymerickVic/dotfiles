@@ -1,0 +1,40 @@
+# Stack Herdr — https://learn.datalumina.com/docs/herdr/ghostty
+
+# Let these Cmd keys reach Herdr and Neovim.
+keybind = super+t=unbind
+keybind = super+w=unbind
+keybind = super+k=unbind
+keybind = super+e=unbind
+keybind = super+shift+g=unbind
+
+# Look and feel
+background = #1D1E27
+foreground = #FDFDFD
+font-size = 14
+window-padding-x = 10
+window-padding-y = 8
+cursor-style = bar
+cursor-style-blink = false
+scrollback-limit = 100000
+
+# AZERTY : seule l'Option GAUCHE sert d'Alt (Herdr alt+↑/↓, Neovim).
+# L'Option DROITE garde les caractères Mac : { } [ ] | \ ~
+# (le doc met `true`, ce qui casse ces caractères sur un clavier AZERTY)
+macos-option-as-alt = left
+
+palette = 0=#282A2B
+palette = 1=#F3977F
+palette = 2=#5ADECD
+palette = 3=#F272A2
+palette = 4=#886F97
+palette = 5=#C574DD
+palette = 6=#79E6F3
+palette = 7=#FDFDFD
+palette = 8=#415844
+palette = 9=#FF4971
+palette = 10=#18E3C8
+palette = 11=#FF8037
+palette = 12=#556FFF
+palette = 13=#B0D143
+palette = 14=#3FDCEE
+palette = 15=#BEBEC1

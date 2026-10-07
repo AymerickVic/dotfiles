@@ -1,0 +1,6 @@
+README\.md
+\.git
+\.gitignore
+\.stow-local-ignore
+environment\.sh
+\.DS_Store
