@@ -1,7 +1,7 @@
 # Stack Herdr — base : https://learn.datalumina.com/docs/herdr/folders
 
 export PATH="$HOME/.local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
-export PATH="$HOME/bin:$HOME/.bun/bin:$HOME/pentest-stack/bin:$PATH"
+export PATH="$HOME/bin:$HOME/.bun/bin:$PATH"
 
 # lazygit (et le reste) lisent ~/.config au lieu de ~/Library/Application Support
 export XDG_CONFIG_HOME="$HOME/.config"
@@ -38,8 +38,6 @@ alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
 kill_port() { lsof -ti:"${1:-3000}" | xargs kill 2>/dev/null; }
 
 # Pentest
-export OLLAMA_API_BASE=http://localhost:11434
-alias pai='pentest-ai'
 alias scan-port='nmap -sV -sC -T4'
 alias web-recon='ffuf -w /usr/share/wordlists/dirb/common.txt -u'
 
