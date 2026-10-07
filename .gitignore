@@ -1,3 +1,6 @@
 **/.DS_Store
 environment.sh
 .config/lazygit/state.yml
+# Herdr écrit sockets, log et verrous à côté de sa config : on ne versionne que config.toml
+.config/herdr/*
+!.config/herdr/config.toml

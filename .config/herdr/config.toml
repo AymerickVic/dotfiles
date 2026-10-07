@@ -1,3 +1,4 @@
+onboarding = false
 # Stack Herdr — https://learn.datalumina.com/docs/herdr/keyboard + /colors
 
 [keys]
@@ -49,3 +50,7 @@ rows = [
 
 [ui.sound]
 enabled = false
+
+[theme]
+name = "rose-pine"
+auto_switch = false

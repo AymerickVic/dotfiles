@@ -3,4 +3,5 @@ README\.md
 \.gitignore
 \.stow-local-ignore
 environment\.sh
+glaido
 \.DS_Store
